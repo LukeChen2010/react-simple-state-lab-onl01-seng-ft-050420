@@ -4,11 +4,15 @@ export default class Cell extends Component {
   
   constructor(props) {
     super()
-    this.state = {color: props.value}
+    this.state = {
+      color: props.value
+    }
   }
   
   handleClick = () => {
-    this.setState({color: '#333'})
+    this.setState({
+      color: '#333'
+    })
   }
   
   render() {
