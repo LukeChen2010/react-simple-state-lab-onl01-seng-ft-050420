@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Cell from './cell.js'
+import Cell from './cell.js';
 
 export default class Matrix extends Component {
   
